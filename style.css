@@ -11,7 +11,7 @@
     line-height: 1.5;
   }
 
-  .container {
+  .nav-container {
     width: 50px;
     height: 50px;
     position: fixed;
@@ -19,11 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 15px;
-    /* bottom: 0;
-    left: 0; */
-    right: 15px;
-    /* margin: auto; */
+    top: 15px;    
+    right: 15px;    
     cursor: pointer;
   }
   
@@ -43,15 +40,40 @@
   .hero, footer {
     background-color: #444444;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   section {
-      min-height: 200px;
+      /* height: 100vh; will use for mobile only*/
+      min-height: 300px;
       padding: 5% 0;
       background-color: #bbbbbb;
   }
 
+  .icon-container {
+      display: inline-block;
+  }
+
+  .contact {
+      /* height: 95vh; will use for mobile only*/
+  }
+
+  footer {
+      /* height: 5vh; will use for mobile only*/
+  }
+
   section:nth-child(even) {
       background-color: #dddddd;
+  }
+
+  .screenShot {
+      border: 1px solid black;
+      height: 200px;
+  }
+  
+  fieldset {
+      min-height: 200px;
   }
   

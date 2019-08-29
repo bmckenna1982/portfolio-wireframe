@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <div class="container">
+        <div class="nav-container">
             <div class="stick stick-1"></div>
             <div class="stick stick-2"></div>
             <div class="stick stick-3"></div>
@@ -19,9 +19,51 @@
         <section class="hero">
             <h1>Hero</h1>
         </section>
-        <section class="about">About</section>
-        <section class="projects">Projects</section>
-        <section class="contact">Contact</section>
+        <section class="about">
+            <h2>About</h2>
+            <div class="icon-container">
+                <div class="icon">tech icon 1</div>
+                <div class="icon">tech icon 2</div>
+                <div class="icon">tech icon 3</div>
+                <div class="icon">tech icon 4</div>               
+            </div> 
+            <div class="me">
+                <div class="me-image">
+                    <img src="" alt="Brian McKenna" class="headShot">           
+                </div>
+                <p>bio text goes heres</p>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+                <div class="project-container">    
+                    <div class="screenShot">Screen shot of project</div>
+                    <div class="project-title">
+                        <h3>Title of project</h3>
+                    </div>
+                    <div class="project-icons">icons for tech used</div>
+                    <div class="project-description">description text for project</div>
+                    <div class="project-links">
+                        <button>Project Repo</button>
+                        <button>Live link</button>
+                    </div>
+                </div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                        <label for="name">name</label>
+                        <input name="name" type="text">
+                        <label for="email">email</label>
+                        <input name="email" type="email">
+                        <label for="message">message</label>
+                        <textarea name="message" id="contact-message" cols="30" rows="10"></textarea>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
 </body>
 <footer>Footer</footer>
